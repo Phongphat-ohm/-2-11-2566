@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* Global Class */
+.card{
+	width: 100%;
+	display: flex;
+	flex-direction: column;	
+	border-radius: 5px;
+	overflow: hidden;
+	border: .5px solid #ff5454;
+	margin: 5px 0;
+}
+
+.card-header{
+	background: #ff5454;
+	padding: 5px;
+	text-align: center;
+}
+
+.card-body{
+	padding: 5px;
+}
+
+.card .card-body ul li{
+	margin: 8px 5px;
+}
+
+.card .card-body ul li a{
+	color: #000;
+	transition: .2s;
+}
+
+/* code page */
+body{
+	background: #eee;
+}
+
+.container {
+  	width: 100%;
+  	max-width: 1200px;
+	margin: 0 auto;
+  	 /* padding: 20px; */
+}
+
+.container header{
+	width: 100%;
+}
+
+.container header .title-header{
+	padding: 10px;
+	background: #707070;
+	color: #bababa;
+}
+
+.container section{
+	padding: 5px;
+	border: .5px solid #707070;
+	background: #fff;
+	box-shadow: 5px 5px 10px #dbdbdb;
+}
+
+.container section img{
+	width: 100%;
+}
+
+.container section div{
+	width: 100%;
+	display: flex;
+}
+
+.container section div nav{
+	width: 20%;
+	padding: 5px 10px;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container section div article{
+	width: 80%;
+	padding: 8px;
+}
+
+.container footer{
+	margin: 20px 0;
+	background: #fff;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.container footer h1{
+	color: #dd0000;
+}
+
+/* Hover Action */
+.card .card-body ul li a:hover{
+	text-decoration: underline;
+	color: #0136ff;
+}
